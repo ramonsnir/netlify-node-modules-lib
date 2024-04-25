@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=https://sdk.netlify.com/sdk/config-schema.json
+config:
+  slug: netlify-node-modules-lib
+  name: netlify-node-modules-lib
+  description: Serves node_modules at lib
+  integrationLevel: site
+  scopes:
+    site: ["read", "write"]
